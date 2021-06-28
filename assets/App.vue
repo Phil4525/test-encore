@@ -1,12 +1,37 @@
 <template>
-  <div>
-    <h2>Hello Vue.js !</h2>
+  <div id="app">
+    <Navbar />
+    <Footer />
   </div>
 </template>
 
 <script>
-export default {};
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+
+export default {
+  name: "App",
+  components: {
+    Navbar,
+    Footer,
+  },
+};
 </script>
 
 <style>
+@font-face {
+  font-family: "FuturaCondensedExtraBold";
+  src: url(../public/assets/font/FuturaCondensedExtraBold.otf);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "FuturaCondensedExtraBold";
+}
 </style>

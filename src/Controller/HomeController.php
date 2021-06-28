@@ -10,6 +10,7 @@ class HomeController extends AbstractController
 {
     /**
      * @Route("/", name="home")
+     * @Route("/{route}", name="vue_pages", requirements={"route"="^(?!api|_(profiler|wdt)).+"})
      */
     public function index(): Response
     {
