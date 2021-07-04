@@ -2,6 +2,7 @@
     "devDependencies": {
         "@symfony/stimulus-bridge": "^2.0.0",
         "@symfony/webpack-encore": "^1.0.0",
+        "bootstrap": "4.6.0",
         "core-js": "^3.0.0",
         "regenerator-runtime": "^0.13.2",
         "stimulus": "^2.0.0",
@@ -26,7 +27,6 @@
         "aos": "^2.3.4",
         "babel": "^6.23.0",
         "babel-loader": "^8.2.2",
-        "bootstrap": "^5.0.2",
         "bootstrap-vue": "^2.21.2",
         "css-loader": "^5.2.6",
         "vue-router": "^3.5.2",
